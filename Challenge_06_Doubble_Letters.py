@@ -10,9 +10,9 @@ The parameter is a string.
 Your function must return True if there are two identical letters in a row in the string,
 and False otherwise.'''
 
-def double_letters(word):
+def double_letters(string):
     # max range len-1, to keep index within the avilable range
-    for i in range(len(word) - 1):
-        if word[i] == word[i+1]:
+    for i in range(len(string) - 1):
+        if string[i] == string[i+1]:
             return True
     return False

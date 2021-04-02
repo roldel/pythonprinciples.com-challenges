@@ -6,9 +6,9 @@ Your function should return a list of all the indexes in the string that have ca
 For example, calling capital_indexes("HeLlO") should return the list [0, 2, 4].
 '''
 
-def capital_indexes(word):
+def capital_indexes(string):
     list = []
-    for i in range(len(word)):
-        if word[i].isupper():
+    for i in range(len(string)):
+        if string[i].isupper():
             list.append(i)
     return list
